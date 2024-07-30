@@ -116,6 +116,7 @@
 		          VerticalGridLinesBrush="LightGray" 
 		          HorizontalGridLinesBrush="DarkGray"
 		          VerticalScrollBarVisibility="Visible"
+                          IsReadOnly="True"
                           AutoGenerateColumns="False">
                     <DataGrid.Columns>
                         <DataGridTextColumn Header="Assembly" Binding="{Binding Path=Key}"/>
